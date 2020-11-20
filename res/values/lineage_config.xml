@@ -30,4 +30,10 @@
 
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">300</integer>
+
+    <declare-styleable name="CustomSeekBarPreference">
+        <attr name="interval" format="integer" />
+        <attr name="units" format="string|reference" />
+        <attr name="allowEditText" format="boolean" />
+    </declare-styleable>
 </resources>
